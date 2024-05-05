@@ -16,11 +16,24 @@
  *     TreeNode(int x, TreeNode *left, TreeNode *right) : val(x), left(left), right(right) {}
  * };
  */
+
+// #define DEBUG
 #include <vector>
 #include <iostream>
 using namespace std;
 class Solution {
 public:
+#ifdef DEBUG
+    struct TreeNode {
+        int val;
+        TreeNode *left;
+        TreeNode *right;
+        TreeNode() : val(0), left(nullptr), right(nullptr) {}
+        TreeNode(int x) : val(x), left(nullptr), right(nullptr) {}
+        TreeNode(int x, TreeNode *left, TreeNode *right) : val(x), left(left), right(right) {}
+    };
+#endif
+
     // inorder: 左中右 postorder: 左右中
     TreeNode* buildTree(vector<int>& inorder, vector<int>& postorder) {
         return buildSubTree(inorder, 0, inorder.size() - 1, postorder, 0, postorder.size() - 1);
@@ -49,25 +62,16 @@ public:
     }
     
 };
-
-// For debug
-// struct TreeNode {
-//     int val;
-//     TreeNode *left;
-//     TreeNode *right;
-//     TreeNode() : val(0), left(nullptr), right(nullptr) {}
-//     TreeNode(int x) : val(x), left(nullptr), right(nullptr) {}
-//     TreeNode(int x, TreeNode *left, TreeNode *right) : val(x), left(left), right(right) {}
-// };
-
-// int main() {
-//     Solution solution;
-//     vector<int> inorder = {9,3,15,20,7};
-//     vector<int> postorder = {9,15,7,20,3};
-//     auto root = solution.buildTree(inorder, postorder);
-//     cout << "root: " << root->val << endl;
-//     return 0;
-// }
+#ifdef DEBUG
+int main() {
+    Solution solution;
+    vector<int> inorder = {9,3,15,20,7};
+    vector<int> postorder = {9,15,7,20,3};
+    Solution::TreeNode* root = solution.buildTree(inorder, postorder);
+    cout << "root: " << root->val << endl;
+    return 0;
+}
+#endif
 
 // @lc code=end
 
