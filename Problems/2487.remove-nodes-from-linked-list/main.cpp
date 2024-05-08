@@ -16,7 +16,7 @@
  * };
  */
 
-// #define DEBUG
+#define DEBUG
 
 #include <vector>
 using namespace std;
