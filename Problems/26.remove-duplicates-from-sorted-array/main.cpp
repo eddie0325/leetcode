@@ -11,10 +11,10 @@ using namespace std;
 class Solution {
 public:
     int removeDuplicates(vector<int>& nums) {
-        // 要更新index
+        // 參考 leetcode 80，是此題的進階版本
         int updateIndex = 0;
         for (int i = 0; i < nums.size(); i++) {
-            if (i == 0 || nums[i] != nums[i - 1]) {
+            if (updateIndex == 0 || nums[i] != nums[updateIndex - 1]) {
                 nums[updateIndex++] = nums[i];
             }
         }
