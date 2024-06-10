@@ -4,8 +4,6 @@ on:
   push:
     branches:
       - main
-  schedule:
-    - cron: '0 0 * * *'  # 每天定时运行
 
 jobs:
   build:
@@ -37,4 +35,4 @@ jobs:
         git commit -m 'docs: Update README.md'
         git push
       env:
-        GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
