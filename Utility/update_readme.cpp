@@ -66,7 +66,7 @@ int main() {
     string readmeContent = buffer.str();
 
     stringstream directoryStructure;
-    traverseDirectory("Problems/", directoryStructure);  // 从当前目录开始遍历
+    traverseDirectory("../Problems/", directoryStructure);  // 从当前目录开始遍历
 
     string beginTag = "<!-- BEGIN DIRECTORY STRUCTURE -->";
     string endTag = "<!-- END DIRECTORY STRUCTURE -->";
