@@ -55,4 +55,5 @@
 |[3169.count-days-without-meetings](Problems/3169.count-days-without-meetings/main.cpp)| |
 |[3170.lexicographically-minimum-string-after-removing-stars](Problems/3170.lexicographically-minimum-string-after-removing-stars/main.cpp)| |
 |[3171.find-subarray-with-bitwise-and-closest-to-k](Problems/3171.find-subarray-with-bitwise-and-closest-to-k/main.cpp)| |
+|[3174.clear-digits](Problems/3174.clear-digits/main.cpp)| |
 <!-- END DIRECTORY STRUCTURE -->
