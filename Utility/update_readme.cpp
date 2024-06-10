@@ -84,7 +84,7 @@ int main() {
                                    directoryStructure.str() +
                                    readmeContent.substr(endPos);
 
-    ofstream outFile("README.md");
+    ofstream outFile("../README.md");
     if (!outFile.is_open()) {
         cerr << "Failed to open README.md for writing\n";
         return 1;
