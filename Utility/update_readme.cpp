@@ -54,7 +54,7 @@ void traverseDirectory(const string& directoryPath, stringstream& readmeFile) {
 }
 
 int main() {
-    ifstream readmeFile("README.md");
+    ifstream readmeFile("../README.md");
     if (!readmeFile.is_open()) {
         cerr << "Failed to open README.md for reading\n";
         return 1;
