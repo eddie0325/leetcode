@@ -11,27 +11,33 @@
 // #define DEBUG
 using namespace std;
 
-struct ProblemData {
+struct ProblemData
+{
     string name;
     int problemOrder;
     string problemTitle;
     string problemKey;
 };
 
-void traverseDirectory(const string& directoryPath, stringstream& readmeFile) {
-    DIR* dir = opendir(directoryPath.c_str());
-    if (!dir) {
+void traverseDirectory(const string &directoryPath, stringstream &readmeFile)
+{
+    DIR *dir = opendir(directoryPath.c_str());
+    if (!dir)
+    {
         cerr << "Failed to open directory: " << directoryPath << "\n";
         return;
     }
 
-    struct dirent* entry;
+    struct dirent *entry;
     vector<ProblemData> problemPaths;
-    while ((entry = readdir(dir)) != nullptr) {
+    while ((entry = readdir(dir)) != nullptr)
+    {
         string name = entry->d_name;
-        if (name == "." || name == "..") continue;
+        if (name == "." || name == "..")
+            continue;
 
-        if (entry->d_type == DT_DIR) {
+        if (entry->d_type == DT_DIR)
+        {
             // fetch problem information
             size_t end = name.find(".");
             int problemOrder = stoi(name.substr(0, end));
@@ -40,35 +46,39 @@ void traverseDirectory(const string& directoryPath, stringstream& readmeFile) {
 
             // check main.cpp exist
             ifstream readmeFile(directoryPath + name + "/main.cpp");
-            if (!readmeFile.is_open()) {
+            if (!readmeFile.is_open())
+            {
                 cerr << "Failed to open " << name << "/main.cpp for reading\n";
                 continue;
             }
 
             string line;
-            regex pattern("// #KEYWORD (.+)");
+            regex pattern("// #KEYPOINT (.+)");
             smatch matches;
 
-            while (getline(readmeFile, line)) {
-                if (regex_search(line, matches, pattern)) {
-                    if (matches.size() > 1) {
+            while (getline(readmeFile, line))
+            {
+                if (regex_search(line, matches, pattern))
+                {
+                    if (matches.size() > 1)
+                    {
                         problemKey = matches[1].str();
                         break;
                     }
                 }
             }
-            problemPaths.push_back({name, problemOrder, problemName, problemKey}); 
+            problemPaths.push_back({name, problemOrder, problemName, problemKey});
         }
     }
 
-    sort(problemPaths.begin(), problemPaths.end(), [](const ProblemData& a, const ProblemData& b) {
-        return a.problemOrder < b.problemOrder;
-    });
+    sort(problemPaths.begin(), problemPaths.end(), [](const ProblemData &a, const ProblemData &b)
+         { return a.problemOrder < b.problemOrder; });
 
-    readmeFile << "|Problem|Key|\n";
+    readmeFile << "|Problem|KeyPoint|\n";
     readmeFile << "|-|-|\n";
 
-    for (const ProblemData& problemData : problemPaths) {
+    for (const ProblemData &problemData : problemPaths)
+    {
         string name = problemData.name;
         int problemOrder = problemData.problemOrder;
         string problemTitle = problemData.problemTitle;
@@ -78,7 +88,8 @@ void traverseDirectory(const string& directoryPath, stringstream& readmeFile) {
     closedir(dir);
 }
 
-int main() {
+int main()
+{
 #ifdef DEBUG
     string readmeFilePath = "README.md";
     string problemPath = "Problems/";
@@ -88,8 +99,9 @@ int main() {
 #endif
 
     fstream readmeFile(readmeFilePath);
-    
-    if (!readmeFile.is_open()) {
+
+    if (!readmeFile.is_open())
+    {
         cerr << "Failed to open README.md for reading\n";
         return 1;
     }
@@ -109,18 +121,20 @@ int main() {
     size_t beginPos = readmeContent.find(beginTag);
     size_t endPos = readmeContent.find(endTag);
 
-    if (beginPos == string::npos || endPos == string::npos || beginPos >= endPos) { 
+    if (beginPos == string::npos || endPos == string::npos || beginPos >= endPos)
+    {
         cerr << "Failed to find the directory structure tags in README.md\n";
         return 1;
     }
 
     beginPos += beginTag.length();
     string newReadmeContent = readmeContent.substr(0, beginPos) + "\n" +
-                                   directoryStructure.str() +
-                                   readmeContent.substr(endPos);
+                              directoryStructure.str() +
+                              readmeContent.substr(endPos);
 
     ofstream outFile(readmeFilePath);
-    if (!outFile.is_open()) {
+    if (!outFile.is_open())
+    {
         cerr << "Failed to open README.md for writing\n";
         return 1;
     }
