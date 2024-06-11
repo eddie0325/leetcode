@@ -6,13 +6,16 @@
 #include <algorithm>
 #include <dirent.h>
 #include <sys/types.h>
+#include <regex>
 
+// #define DEBUG
 using namespace std;
 
 struct ProblemData {
     string name;
     int problemOrder;
     string problemTitle;
+    string problemKey;
 };
 
 void traverseDirectory(const string& directoryPath, stringstream& readmeFile) {
@@ -29,10 +32,32 @@ void traverseDirectory(const string& directoryPath, stringstream& readmeFile) {
         if (name == "." || name == "..") continue;
 
         if (entry->d_type == DT_DIR) {
+            // fetch problem information
             size_t end = name.find(".");
             int problemOrder = stoi(name.substr(0, end));
             string problemName = name.substr(end + 1);
-            problemPaths.push_back({name, problemOrder, problemName}); 
+            string problemKey = "";
+
+            // check main.cpp exist
+            ifstream readmeFile(directoryPath + name + "/main.cpp");
+            if (!readmeFile.is_open()) {
+                cerr << "Failed to open " << name << "/main.cpp for reading\n";
+                continue;
+            }
+
+            string line;
+            regex pattern("// #KEYWORD (.+)");
+            smatch matches;
+
+            while (getline(readmeFile, line)) {
+                if (regex_search(line, matches, pattern)) {
+                    if (matches.size() > 1) {
+                        problemKey = matches[1].str();
+                        break;
+                    }
+                }
+            }
+            problemPaths.push_back({name, problemOrder, problemName, problemKey}); 
         }
     }
 
@@ -43,18 +68,27 @@ void traverseDirectory(const string& directoryPath, stringstream& readmeFile) {
     readmeFile << "|Problem|Key|\n";
     readmeFile << "|-|-|\n";
 
-    for (const ProblemData& problemPath : problemPaths) {
-        string name = problemPath.name;
-        int problemOrder = problemPath.problemOrder;
-        string problemTitle = problemPath.problemTitle;
-        string key = " "; // TODO: Add key
+    for (const ProblemData& problemData : problemPaths) {
+        string name = problemData.name;
+        int problemOrder = problemData.problemOrder;
+        string problemTitle = problemData.problemTitle;
+        string key = problemData.problemKey;
         readmeFile << "|[" << name << "](Problems/" << name << "/main.cpp)|" << key << "|\n";
     }
     closedir(dir);
 }
 
 int main() {
-    ifstream readmeFile("../README.md");
+#ifdef DEBUG
+    string readmeFilePath = "README.md";
+    string problemPath = "Problems/";
+#else
+    string readmeFilePath = "../README.md";
+    string problemPath = "../Problems/";
+#endif
+
+    fstream readmeFile(readmeFilePath);
+    
     if (!readmeFile.is_open()) {
         cerr << "Failed to open README.md for reading\n";
         return 1;
@@ -66,7 +100,8 @@ int main() {
     string readmeContent = buffer.str();
 
     stringstream directoryStructure;
-    traverseDirectory("../Problems/", directoryStructure);  // 从当前目录开始遍历
+
+    traverseDirectory(problemPath, directoryStructure);
 
     string beginTag = "<!-- BEGIN DIRECTORY STRUCTURE -->";
     string endTag = "<!-- END DIRECTORY STRUCTURE -->";
@@ -84,7 +119,7 @@ int main() {
                                    directoryStructure.str() +
                                    readmeContent.substr(endPos);
 
-    ofstream outFile("../README.md");
+    ofstream outFile(readmeFilePath);
     if (!outFile.is_open()) {
         cerr << "Failed to open README.md for writing\n";
         return 1;
