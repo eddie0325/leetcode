@@ -32,6 +32,7 @@
 |[979.distribute-coins-in-binary-tree](Problems/979.distribute-coins-in-binary-tree/main.cpp)| |
 |[1002.find-common-characters](Problems/1002.find-common-characters/main.cpp)| |
 |[1051.height-checker](Problems/1051.height-checker/main.cpp)| |
+|[1122.relative-sort-array](Problems/1122.relative-sort-array/main.cpp)| |
 |[1325.delete-leaves-with-a-given-value](Problems/1325.delete-leaves-with-a-given-value/main.cpp)| |
 |[1608.special-array-with-x-elements-greater-than-or-equal-x](Problems/1608.special-array-with-x-elements-greater-than-or-equal-x/main.cpp)| |
 |[1863.sum-of-all-subset-xor-totals](Problems/1863.sum-of-all-subset-xor-totals/main.cpp)| |
