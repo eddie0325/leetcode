@@ -5,6 +5,7 @@
  */
 
 // @lc code=start
+// #KEYPOINT dynamic programming
 #define DEBUG
 #include <vector>
 using namespace std;

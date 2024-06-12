@@ -5,6 +5,7 @@
  */
 
 // @lc code=start
+// #KEYPOINT trie tree(prefix tree)
 // #define DEBUG
 #include <vector>
 #include <string>

@@ -5,13 +5,13 @@
  */
 
 // @lc code=start
+// #KEYPOINT prefix sum
 #define DEBUG
 #include <vector>
 #include <unordered_map>
 using namespace std;
 class Solution {
 public:
-// prefix sum
     bool checkSubarraySum(vector<int>& nums, int k) {
         // subarray sum i to j = sum[j] - sum[i-1]
         // 因此在sum中找到餘數相同的sum[i],sum[j]，就表示找到subarray i+1 to j

@@ -5,6 +5,7 @@
  */
 
 // @lc code=start
+// #KEYPOINT prefix sum
 // #define DEBUG
 #include <vector>
 #include <unordered_map>
