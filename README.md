@@ -7,6 +7,7 @@
 |[26.remove-duplicates-from-sorted-array](Problems/26.remove-duplicates-from-sorted-array/main.cpp)||
 |[27.remove-element](Problems/27.remove-element/main.cpp)||
 |[66.plus-one](Problems/66.plus-one/main.cpp)||
+|[75.sort-colors](Problems/75.sort-colors/main.cpp)||
 |[78.subsets](Problems/78.subsets/main.cpp)||
 |[80.remove-duplicates-from-sorted-array-ii](Problems/80.remove-duplicates-from-sorted-array-ii/main.cpp)||
 |[88.merge-sorted-array](Problems/88.merge-sorted-array/main.cpp)||
