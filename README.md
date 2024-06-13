@@ -37,6 +37,7 @@
 |[1325.delete-leaves-with-a-given-value](Problems/1325.delete-leaves-with-a-given-value/main.cpp)||
 |[1608.special-array-with-x-elements-greater-than-or-equal-x](Problems/1608.special-array-with-x-elements-greater-than-or-equal-x/main.cpp)||
 |[1863.sum-of-all-subset-xor-totals](Problems/1863.sum-of-all-subset-xor-totals/main.cpp)||
+|[2037.minimum-number-of-moves-to-seat-everyone](Problems/2037.minimum-number-of-moves-to-seat-everyone/main.cpp)||
 |[2331.evaluate-boolean-binary-tree](Problems/2331.evaluate-boolean-binary-tree/main.cpp)||
 |[2353.design-a-food-rating-system](Problems/2353.design-a-food-rating-system/main.cpp)|priority_queue|
 |[2373.largest-local-values-in-a-matrix](Problems/2373.largest-local-values-in-a-matrix/main.cpp)||
