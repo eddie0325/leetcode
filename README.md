@@ -23,7 +23,7 @@
 |[263.ugly-number](Problems/263.ugly-number/main.cpp)||
 |[344.reverse-string](Problems/344.reverse-string/main.cpp)||
 |[409.longest-palindrome](Problems/409.longest-palindrome/main.cpp)||
-|[502.ipo](Problems/502.ipo/main.cpp)||
+|[502.ipo](Problems/502.ipo/main.cpp)|priority_queue(max heap)|
 |[506.relative-ranks](Problems/506.relative-ranks/main.cpp)||
 |[523.continuous-subarray-sum](Problems/523.continuous-subarray-sum/main.cpp)|prefix sum|
 |[648.replace-words](Problems/648.replace-words/main.cpp)|trie tree(prefix tree)|
