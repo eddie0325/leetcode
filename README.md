@@ -61,4 +61,5 @@
 |[3170.lexicographically-minimum-string-after-removing-stars](Problems/3170.lexicographically-minimum-string-after-removing-stars/main.cpp)||
 |[3171.find-subarray-with-bitwise-and-closest-to-k](Problems/3171.find-subarray-with-bitwise-and-closest-to-k/main.cpp)||
 |[3174.clear-digits](Problems/3174.clear-digits/main.cpp)||
+|[3175.find-the-first-player-to-win-k-games-in-a-row](Problems/3175.find-the-first-player-to-win-k-games-in-a-row/main.cpp)||
 <!-- END DIRECTORY STRUCTURE -->
