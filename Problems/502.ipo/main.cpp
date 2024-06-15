@@ -5,8 +5,8 @@
  */
 
 // @lc code=start
-// KEYPOINT priority_queue(max heap)
-#define DEBUG
+// #KEYPOINT priority_queue(max heap)
+// #define DEBUG
 #include <vector>
 #include <queue>
 #include <algorithm>
