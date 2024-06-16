@@ -21,6 +21,7 @@
 |[207.course-schedule](Problems/207.course-schedule/main.cpp)||
 |[237.delete-node-in-a-linked-list](Problems/237.delete-node-in-a-linked-list/main.cpp)||
 |[263.ugly-number](Problems/263.ugly-number/main.cpp)||
+|[330.patching-array](Problems/330.patching-array/main.cpp)||
 |[344.reverse-string](Problems/344.reverse-string/main.cpp)||
 |[409.longest-palindrome](Problems/409.longest-palindrome/main.cpp)||
 |[502.ipo](Problems/502.ipo/main.cpp)|priority_queue(max heap)|
