@@ -27,6 +27,7 @@
 |[502.ipo](Problems/502.ipo/main.cpp)|priority_queue(max heap)|
 |[506.relative-ranks](Problems/506.relative-ranks/main.cpp)||
 |[523.continuous-subarray-sum](Problems/523.continuous-subarray-sum/main.cpp)|prefix sum|
+|[633.sum-of-square-numbers](Problems/633.sum-of-square-numbers/main.cpp)||
 |[648.replace-words](Problems/648.replace-words/main.cpp)|trie tree(prefix tree)|
 |[786.k-th-smallest-prime-fraction](Problems/786.k-th-smallest-prime-fraction/main.cpp)||
 |[846.hand-of-straights](Problems/846.hand-of-straights/main.cpp)||
