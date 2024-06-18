@@ -30,6 +30,7 @@
 |[633.sum-of-square-numbers](Problems/633.sum-of-square-numbers/main.cpp)||
 |[648.replace-words](Problems/648.replace-words/main.cpp)|trie tree(prefix tree)|
 |[786.k-th-smallest-prime-fraction](Problems/786.k-th-smallest-prime-fraction/main.cpp)||
+|[826.most-profit-assigning-work](Problems/826.most-profit-assigning-work/main.cpp)||
 |[846.hand-of-straights](Problems/846.hand-of-straights/main.cpp)||
 |[881.boats-to-save-people](Problems/881.boats-to-save-people/main.cpp)||
 |[945.minimum-increment-to-make-array-unique](Problems/945.minimum-increment-to-make-array-unique/main.cpp)||
