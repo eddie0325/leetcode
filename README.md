@@ -23,6 +23,7 @@
 |[263.ugly-number](Problems/263.ugly-number/main.cpp)||
 |[330.patching-array](Problems/330.patching-array/main.cpp)||
 |[344.reverse-string](Problems/344.reverse-string/main.cpp)||
+|[350.intersection-of-two-arrays-ii](Problems/350.intersection-of-two-arrays-ii/main.cpp)||
 |[409.longest-palindrome](Problems/409.longest-palindrome/main.cpp)||
 |[502.ipo](Problems/502.ipo/main.cpp)|priority_queue(max heap)|
 |[506.relative-ranks](Problems/506.relative-ranks/main.cpp)||
@@ -41,6 +42,7 @@
 |[1122.relative-sort-array](Problems/1122.relative-sort-array/main.cpp)||
 |[1325.delete-leaves-with-a-given-value](Problems/1325.delete-leaves-with-a-given-value/main.cpp)||
 |[1482.minimum-number-of-days-to-make-m-bouquets](Problems/1482.minimum-number-of-days-to-make-m-bouquets/main.cpp)||
+|[1550.three-consecutive-odds](Problems/1550.three-consecutive-odds/main.cpp)||
 |[1608.special-array-with-x-elements-greater-than-or-equal-x](Problems/1608.special-array-with-x-elements-greater-than-or-equal-x/main.cpp)||
 |[1863.sum-of-all-subset-xor-totals](Problems/1863.sum-of-all-subset-xor-totals/main.cpp)||
 |[2037.minimum-number-of-moves-to-seat-everyone](Problems/2037.minimum-number-of-moves-to-seat-everyone/main.cpp)||
