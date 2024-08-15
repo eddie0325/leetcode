@@ -33,6 +33,7 @@
 |[786.k-th-smallest-prime-fraction](Problems/786.k-th-smallest-prime-fraction/main.cpp)||
 |[826.most-profit-assigning-work](Problems/826.most-profit-assigning-work/main.cpp)||
 |[846.hand-of-straights](Problems/846.hand-of-straights/main.cpp)||
+|[860.lemonade-change](Problems/860.lemonade-change/main.cpp)||
 |[881.boats-to-save-people](Problems/881.boats-to-save-people/main.cpp)||
 |[945.minimum-increment-to-make-array-unique](Problems/945.minimum-increment-to-make-array-unique/main.cpp)||
 |[974.subarray-sums-divisible-by-k](Problems/974.subarray-sums-divisible-by-k/main.cpp)|prefix sum|
