@@ -69,4 +69,5 @@
 |[3171.find-subarray-with-bitwise-and-closest-to-k](Problems/3171.find-subarray-with-bitwise-and-closest-to-k/main.cpp)||
 |[3174.clear-digits](Problems/3174.clear-digits/main.cpp)||
 |[3175.find-the-first-player-to-win-k-games-in-a-row](Problems/3175.find-the-first-player-to-win-k-games-in-a-row/main.cpp)||
+|[3191.minimum-operations-to-make-binary-array-elements-equal-to-one-i](Problems/3191.minimum-operations-to-make-binary-array-elements-equal-to-one-i/main.cpp)||
 <!-- END DIRECTORY STRUCTURE -->
