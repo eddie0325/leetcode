@@ -50,6 +50,7 @@
 |[2331.evaluate-boolean-binary-tree](Problems/2331.evaluate-boolean-binary-tree/main.cpp)||
 |[2353.design-a-food-rating-system](Problems/2353.design-a-food-rating-system/main.cpp)|priority_queue|
 |[2373.largest-local-values-in-a-matrix](Problems/2373.largest-local-values-in-a-matrix/main.cpp)||
+|[2401.longest-nice-subarray](Problems/2401.longest-nice-subarray/main.cpp)||
 |[2486.append-characters-to-string-to-make-subsequence](Problems/2486.append-characters-to-string-to-make-subsequence/main.cpp)||
 |[2487.remove-nodes-from-linked-list](Problems/2487.remove-nodes-from-linked-list/main.cpp)||
 |[2597.the-number-of-beautiful-subsets](Problems/2597.the-number-of-beautiful-subsets/main.cpp)|backtracking|
