@@ -15,8 +15,11 @@
 |[105.construct-binary-tree-from-preorder-and-inorder-traversal](Problems/105.construct-binary-tree-from-preorder-and-inorder-traversal/main.cpp)||
 |[106.construct-binary-tree-from-inorder-and-postorder-traversal](Problems/106.construct-binary-tree-from-inorder-and-postorder-traversal/main.cpp)||
 |[110.balanced-binary-tree](Problems/110.balanced-binary-tree/main.cpp)||
+|[121.best-time-to-buy-and-sell-stock](Problems/121.best-time-to-buy-and-sell-stock/main.cpp)||
 |[131.palindrome-partitioning](Problems/131.palindrome-partitioning/main.cpp)|backtracking|
 |[165.compare-version-numbers](Problems/165.compare-version-numbers/main.cpp)||
+|[169.majority-element](Problems/169.majority-element/main.cpp)|Boyer–Moore majority vote algorithm|
+|[189.rotate-array](Problems/189.rotate-array/main.cpp)||
 |[206.reverse-linked-list](Problems/206.reverse-linked-list/main.cpp)||
 |[207.course-schedule](Problems/207.course-schedule/main.cpp)||
 |[237.delete-node-in-a-linked-list](Problems/237.delete-node-in-a-linked-list/main.cpp)||
