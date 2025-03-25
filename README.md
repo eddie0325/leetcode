@@ -6,6 +6,7 @@
 |[1.two-sum](Problems/1.two-sum/main.cpp)||
 |[26.remove-duplicates-from-sorted-array](Problems/26.remove-duplicates-from-sorted-array/main.cpp)||
 |[27.remove-element](Problems/27.remove-element/main.cpp)||
+|[55.jump-game](Problems/55.jump-game/main.cpp)||
 |[66.plus-one](Problems/66.plus-one/main.cpp)||
 |[75.sort-colors](Problems/75.sort-colors/main.cpp)||
 |[78.subsets](Problems/78.subsets/main.cpp)||
@@ -16,6 +17,7 @@
 |[106.construct-binary-tree-from-inorder-and-postorder-traversal](Problems/106.construct-binary-tree-from-inorder-and-postorder-traversal/main.cpp)||
 |[110.balanced-binary-tree](Problems/110.balanced-binary-tree/main.cpp)||
 |[121.best-time-to-buy-and-sell-stock](Problems/121.best-time-to-buy-and-sell-stock/main.cpp)||
+|[122.best-time-to-buy-and-sell-stock-ii](Problems/122.best-time-to-buy-and-sell-stock-ii/main.cpp)||
 |[131.palindrome-partitioning](Problems/131.palindrome-partitioning/main.cpp)|backtracking|
 |[165.compare-version-numbers](Problems/165.compare-version-numbers/main.cpp)||
 |[169.majority-element](Problems/169.majority-element/main.cpp)|Boyer–Moore majority vote algorithm|
