@@ -48,6 +48,7 @@
 |[1122.relative-sort-array](Problems/1122.relative-sort-array/main.cpp)||
 |[1325.delete-leaves-with-a-given-value](Problems/1325.delete-leaves-with-a-given-value/main.cpp)||
 |[1482.minimum-number-of-days-to-make-m-bouquets](Problems/1482.minimum-number-of-days-to-make-m-bouquets/main.cpp)||
+|[1534.count-good-triplets](Problems/1534.count-good-triplets/main.cpp)||
 |[1550.three-consecutive-odds](Problems/1550.three-consecutive-odds/main.cpp)||
 |[1608.special-array-with-x-elements-greater-than-or-equal-x](Problems/1608.special-array-with-x-elements-greater-than-or-equal-x/main.cpp)||
 |[1863.sum-of-all-subset-xor-totals](Problems/1863.sum-of-all-subset-xor-totals/main.cpp)||
