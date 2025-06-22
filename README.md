@@ -6,6 +6,8 @@
 |[1.two-sum](Problems/1.two-sum/main.cpp)||
 |[26.remove-duplicates-from-sorted-array](Problems/26.remove-duplicates-from-sorted-array/main.cpp)||
 |[27.remove-element](Problems/27.remove-element/main.cpp)||
+|[36.valid-sudoku](Problems/36.valid-sudoku/main.cpp)||
+|[49.group-anagrams](Problems/49.group-anagrams/main.cpp)||
 |[55.jump-game](Problems/55.jump-game/main.cpp)||
 |[66.plus-one](Problems/66.plus-one/main.cpp)||
 |[75.sort-colors](Problems/75.sort-colors/main.cpp)||
@@ -18,16 +20,21 @@
 |[110.balanced-binary-tree](Problems/110.balanced-binary-tree/main.cpp)||
 |[121.best-time-to-buy-and-sell-stock](Problems/121.best-time-to-buy-and-sell-stock/main.cpp)||
 |[122.best-time-to-buy-and-sell-stock-ii](Problems/122.best-time-to-buy-and-sell-stock-ii/main.cpp)||
+|[128.longest-consecutive-sequence](Problems/128.longest-consecutive-sequence/main.cpp)||
 |[131.palindrome-partitioning](Problems/131.palindrome-partitioning/main.cpp)|backtracking|
 |[165.compare-version-numbers](Problems/165.compare-version-numbers/main.cpp)||
 |[169.majority-element](Problems/169.majority-element/main.cpp)|Boyer–Moore majority vote algorithm|
 |[189.rotate-array](Problems/189.rotate-array/main.cpp)||
 |[206.reverse-linked-list](Problems/206.reverse-linked-list/main.cpp)||
 |[207.course-schedule](Problems/207.course-schedule/main.cpp)||
+|[217.contains-duplicate](Problems/217.contains-duplicate/main.cpp)||
 |[237.delete-node-in-a-linked-list](Problems/237.delete-node-in-a-linked-list/main.cpp)||
+|[238.product-of-array-except-self](Problems/238.product-of-array-except-self/main.cpp)||
+|[242.valid-anagram](Problems/242.valid-anagram/main.cpp)||
 |[263.ugly-number](Problems/263.ugly-number/main.cpp)||
 |[330.patching-array](Problems/330.patching-array/main.cpp)||
 |[344.reverse-string](Problems/344.reverse-string/main.cpp)||
+|[347.top-k-frequent-elements](Problems/347.top-k-frequent-elements/main.cpp)||
 |[350.intersection-of-two-arrays-ii](Problems/350.intersection-of-two-arrays-ii/main.cpp)||
 |[409.longest-palindrome](Problems/409.longest-palindrome/main.cpp)||
 |[502.ipo](Problems/502.ipo/main.cpp)|priority_queue(max heap)|
