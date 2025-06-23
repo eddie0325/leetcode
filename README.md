@@ -4,9 +4,12 @@
 |Problem|KeyPoint|
 |-|-|
 |[1.two-sum](Problems/1.two-sum/main.cpp)||
+|[11.container-with-most-water](Problems/11.container-with-most-water/main.cpp)||
+|[15.3-sum](Problems/15.3-sum/main.cpp)||
 |[26.remove-duplicates-from-sorted-array](Problems/26.remove-duplicates-from-sorted-array/main.cpp)||
 |[27.remove-element](Problems/27.remove-element/main.cpp)||
 |[36.valid-sudoku](Problems/36.valid-sudoku/main.cpp)||
+|[42.trapping-rain-water](Problems/42.trapping-rain-water/main.cpp)||
 |[49.group-anagrams](Problems/49.group-anagrams/main.cpp)||
 |[55.jump-game](Problems/55.jump-game/main.cpp)||
 |[66.plus-one](Problems/66.plus-one/main.cpp)||
@@ -20,9 +23,11 @@
 |[110.balanced-binary-tree](Problems/110.balanced-binary-tree/main.cpp)||
 |[121.best-time-to-buy-and-sell-stock](Problems/121.best-time-to-buy-and-sell-stock/main.cpp)||
 |[122.best-time-to-buy-and-sell-stock-ii](Problems/122.best-time-to-buy-and-sell-stock-ii/main.cpp)||
+|[125.valid-palindrome](Problems/125.valid-palindrome/main.cpp)||
 |[128.longest-consecutive-sequence](Problems/128.longest-consecutive-sequence/main.cpp)||
 |[131.palindrome-partitioning](Problems/131.palindrome-partitioning/main.cpp)|backtracking|
 |[165.compare-version-numbers](Problems/165.compare-version-numbers/main.cpp)||
+|[167.two-sum-ii-input-array-is-sorted](Problems/167.two-sum-ii-input-array-is-sorted/main.cpp)||
 |[169.majority-element](Problems/169.majority-element/main.cpp)|Boyer–Moore majority vote algorithm|
 |[189.rotate-array](Problems/189.rotate-array/main.cpp)||
 |[206.reverse-linked-list](Problems/206.reverse-linked-list/main.cpp)||
