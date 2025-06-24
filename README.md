@@ -4,6 +4,7 @@
 |Problem|KeyPoint|
 |-|-|
 |[1.two-sum](Problems/1.two-sum/main.cpp)||
+|[3.longest-substring-without-repeating-characters](Problems/3.longest-substring-without-repeating-characters/main.cpp)||
 |[11.container-with-most-water](Problems/11.container-with-most-water/main.cpp)||
 |[15.3-sum](Problems/15.3-sum/main.cpp)||
 |[26.remove-duplicates-from-sorted-array](Problems/26.remove-duplicates-from-sorted-array/main.cpp)||
@@ -42,6 +43,7 @@
 |[347.top-k-frequent-elements](Problems/347.top-k-frequent-elements/main.cpp)||
 |[350.intersection-of-two-arrays-ii](Problems/350.intersection-of-two-arrays-ii/main.cpp)||
 |[409.longest-palindrome](Problems/409.longest-palindrome/main.cpp)||
+|[424.longest-repeating-character-replacement](Problems/424.longest-repeating-character-replacement/main.cpp)|Sliding Window|
 |[502.ipo](Problems/502.ipo/main.cpp)|priority_queue(max heap)|
 |[506.relative-ranks](Problems/506.relative-ranks/main.cpp)||
 |[523.continuous-subarray-sum](Problems/523.continuous-subarray-sum/main.cpp)|prefix sum|
