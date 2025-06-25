@@ -15,6 +15,7 @@
 |[55.jump-game](Problems/55.jump-game/main.cpp)||
 |[66.plus-one](Problems/66.plus-one/main.cpp)||
 |[75.sort-colors](Problems/75.sort-colors/main.cpp)||
+|[76.minimum-window-substring](Problems/76.minimum-window-substring/main.cpp)|Sliding Window|
 |[78.subsets](Problems/78.subsets/main.cpp)||
 |[80.remove-duplicates-from-sorted-array-ii](Problems/80.remove-duplicates-from-sorted-array-ii/main.cpp)||
 |[88.merge-sorted-array](Problems/88.merge-sorted-array/main.cpp)||
@@ -47,6 +48,7 @@
 |[502.ipo](Problems/502.ipo/main.cpp)|priority_queue(max heap)|
 |[506.relative-ranks](Problems/506.relative-ranks/main.cpp)||
 |[523.continuous-subarray-sum](Problems/523.continuous-subarray-sum/main.cpp)|prefix sum|
+|[567.permutation-in-string](Problems/567.permutation-in-string/main.cpp)|Sliding Window|
 |[633.sum-of-square-numbers](Problems/633.sum-of-square-numbers/main.cpp)||
 |[648.replace-words](Problems/648.replace-words/main.cpp)|trie tree(prefix tree)|
 |[786.k-th-smallest-prime-fraction](Problems/786.k-th-smallest-prime-fraction/main.cpp)||
