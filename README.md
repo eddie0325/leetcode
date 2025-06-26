@@ -7,6 +7,7 @@
 |[3.longest-substring-without-repeating-characters](Problems/3.longest-substring-without-repeating-characters/main.cpp)||
 |[11.container-with-most-water](Problems/11.container-with-most-water/main.cpp)||
 |[15.3-sum](Problems/15.3-sum/main.cpp)||
+|[20.valid-parentheses](Problems/20.valid-parentheses/main.cpp)||
 |[26.remove-duplicates-from-sorted-array](Problems/26.remove-duplicates-from-sorted-array/main.cpp)||
 |[27.remove-element](Problems/27.remove-element/main.cpp)||
 |[36.valid-sudoku](Problems/36.valid-sudoku/main.cpp)||
@@ -37,6 +38,7 @@
 |[217.contains-duplicate](Problems/217.contains-duplicate/main.cpp)||
 |[237.delete-node-in-a-linked-list](Problems/237.delete-node-in-a-linked-list/main.cpp)||
 |[238.product-of-array-except-self](Problems/238.product-of-array-except-self/main.cpp)||
+|[239.sliding-window-maximum](Problems/239.sliding-window-maximum/main.cpp)|deque|
 |[242.valid-anagram](Problems/242.valid-anagram/main.cpp)||
 |[263.ugly-number](Problems/263.ugly-number/main.cpp)||
 |[330.patching-array](Problems/330.patching-array/main.cpp)||
