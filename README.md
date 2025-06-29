@@ -8,6 +8,7 @@
 |[11.container-with-most-water](Problems/11.container-with-most-water/main.cpp)||
 |[15.3-sum](Problems/15.3-sum/main.cpp)||
 |[20.valid-parentheses](Problems/20.valid-parentheses/main.cpp)||
+|[22.generate-parentheses](Problems/22.generate-parentheses/main.cpp)|backtracking|
 |[26.remove-duplicates-from-sorted-array](Problems/26.remove-duplicates-from-sorted-array/main.cpp)||
 |[27.remove-element](Problems/27.remove-element/main.cpp)||
 |[36.valid-sudoku](Problems/36.valid-sudoku/main.cpp)||
@@ -19,6 +20,7 @@
 |[76.minimum-window-substring](Problems/76.minimum-window-substring/main.cpp)|Sliding Window|
 |[78.subsets](Problems/78.subsets/main.cpp)||
 |[80.remove-duplicates-from-sorted-array-ii](Problems/80.remove-duplicates-from-sorted-array-ii/main.cpp)||
+|[84.largest-rectangle-in-histogram](Problems/84.largest-rectangle-in-histogram/main.cpp)|Monotonic Stack|
 |[88.merge-sorted-array](Problems/88.merge-sorted-array/main.cpp)||
 |[104.maximum-depth-of-binary-tree](Problems/104.maximum-depth-of-binary-tree/main.cpp)||
 |[105.construct-binary-tree-from-preorder-and-inorder-traversal](Problems/105.construct-binary-tree-from-preorder-and-inorder-traversal/main.cpp)||
@@ -29,6 +31,8 @@
 |[125.valid-palindrome](Problems/125.valid-palindrome/main.cpp)||
 |[128.longest-consecutive-sequence](Problems/128.longest-consecutive-sequence/main.cpp)||
 |[131.palindrome-partitioning](Problems/131.palindrome-partitioning/main.cpp)|backtracking|
+|[150.evaluate-reverse-polish-notation](Problems/150.evaluate-reverse-polish-notation/main.cpp)||
+|[155.min-stack](Problems/155.min-stack/main.cpp)||
 |[165.compare-version-numbers](Problems/165.compare-version-numbers/main.cpp)||
 |[167.two-sum-ii-input-array-is-sorted](Problems/167.two-sum-ii-input-array-is-sorted/main.cpp)||
 |[169.majority-element](Problems/169.majority-element/main.cpp)|Boyer–Moore majority vote algorithm|
@@ -53,9 +57,11 @@
 |[567.permutation-in-string](Problems/567.permutation-in-string/main.cpp)|Sliding Window|
 |[633.sum-of-square-numbers](Problems/633.sum-of-square-numbers/main.cpp)||
 |[648.replace-words](Problems/648.replace-words/main.cpp)|trie tree(prefix tree)|
+|[739.daily-temperatures](Problems/739.daily-temperatures/main.cpp)|Monotonic Stack|
 |[786.k-th-smallest-prime-fraction](Problems/786.k-th-smallest-prime-fraction/main.cpp)||
 |[826.most-profit-assigning-work](Problems/826.most-profit-assigning-work/main.cpp)||
 |[846.hand-of-straights](Problems/846.hand-of-straights/main.cpp)||
+|[853.car-fleet](Problems/853.car-fleet/main.cpp)||
 |[860.lemonade-change](Problems/860.lemonade-change/main.cpp)||
 |[881.boats-to-save-people](Problems/881.boats-to-save-people/main.cpp)||
 |[945.minimum-increment-to-make-array-unique](Problems/945.minimum-increment-to-make-array-unique/main.cpp)||
