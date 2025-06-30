@@ -11,11 +11,13 @@
 |[22.generate-parentheses](Problems/22.generate-parentheses/main.cpp)|backtracking|
 |[26.remove-duplicates-from-sorted-array](Problems/26.remove-duplicates-from-sorted-array/main.cpp)||
 |[27.remove-element](Problems/27.remove-element/main.cpp)||
+|[33.search-in-rotated-sorted-array](Problems/33.search-in-rotated-sorted-array/main.cpp)||
 |[36.valid-sudoku](Problems/36.valid-sudoku/main.cpp)||
 |[42.trapping-rain-water](Problems/42.trapping-rain-water/main.cpp)||
 |[49.group-anagrams](Problems/49.group-anagrams/main.cpp)||
 |[55.jump-game](Problems/55.jump-game/main.cpp)||
 |[66.plus-one](Problems/66.plus-one/main.cpp)||
+|[74.search-a-2-d-matrix](Problems/74.search-a-2-d-matrix/main.cpp)||
 |[75.sort-colors](Problems/75.sort-colors/main.cpp)||
 |[76.minimum-window-substring](Problems/76.minimum-window-substring/main.cpp)|Sliding Window|
 |[78.subsets](Problems/78.subsets/main.cpp)||
@@ -32,6 +34,7 @@
 |[128.longest-consecutive-sequence](Problems/128.longest-consecutive-sequence/main.cpp)||
 |[131.palindrome-partitioning](Problems/131.palindrome-partitioning/main.cpp)|backtracking|
 |[150.evaluate-reverse-polish-notation](Problems/150.evaluate-reverse-polish-notation/main.cpp)||
+|[153.find-minimum-in-rotated-sorted-array](Problems/153.find-minimum-in-rotated-sorted-array/main.cpp)||
 |[155.min-stack](Problems/155.min-stack/main.cpp)||
 |[165.compare-version-numbers](Problems/165.compare-version-numbers/main.cpp)||
 |[167.two-sum-ii-input-array-is-sorted](Problems/167.two-sum-ii-input-array-is-sorted/main.cpp)||
@@ -57,12 +60,14 @@
 |[567.permutation-in-string](Problems/567.permutation-in-string/main.cpp)|Sliding Window|
 |[633.sum-of-square-numbers](Problems/633.sum-of-square-numbers/main.cpp)||
 |[648.replace-words](Problems/648.replace-words/main.cpp)|trie tree(prefix tree)|
+|[704.binary-search](Problems/704.binary-search/main.cpp)||
 |[739.daily-temperatures](Problems/739.daily-temperatures/main.cpp)|Monotonic Stack|
 |[786.k-th-smallest-prime-fraction](Problems/786.k-th-smallest-prime-fraction/main.cpp)||
 |[826.most-profit-assigning-work](Problems/826.most-profit-assigning-work/main.cpp)||
 |[846.hand-of-straights](Problems/846.hand-of-straights/main.cpp)||
 |[853.car-fleet](Problems/853.car-fleet/main.cpp)||
 |[860.lemonade-change](Problems/860.lemonade-change/main.cpp)||
+|[875.koko-eating-bananas](Problems/875.koko-eating-bananas/main.cpp)||
 |[881.boats-to-save-people](Problems/881.boats-to-save-people/main.cpp)||
 |[945.minimum-increment-to-make-array-unique](Problems/945.minimum-increment-to-make-array-unique/main.cpp)||
 |[974.subarray-sums-divisible-by-k](Problems/974.subarray-sums-divisible-by-k/main.cpp)|prefix sum|
