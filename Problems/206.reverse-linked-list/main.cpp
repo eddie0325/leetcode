@@ -32,19 +32,16 @@ struct ListNode {
 #endif
 
     ListNode* reverseList(ListNode* head) {
-        ListNode* prevNode = nullptr;
-        ListNode* currNode = head;
-        while(currNode != nullptr) {
-            // 暫存下一個
-            ListNode* nextNode = currNode->next;
-            // 將下一個指向上一個
-            currNode->next = prevNode;
-            
-            // for next
-            prevNode = currNode;
-            currNode = nextNode;
+        ListNode *now = head;
+        ListNode *last = nullptr;
+        
+        while(now != nullptr) {
+            ListNode *next = now->next;
+            now->next = last;
+            last = now;
+            now = next;
         }
-        return prevNode;
+        return last;
     }
 };
 
