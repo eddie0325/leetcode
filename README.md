@@ -4,11 +4,14 @@
 |Problem|KeyPoint|
 |-|-|
 |[1.two-sum](Problems/1.two-sum/main.cpp)||
+|[2.add-two-numbers](Problems/2.add-two-numbers/main.cpp)||
 |[3.longest-substring-without-repeating-characters](Problems/3.longest-substring-without-repeating-characters/main.cpp)||
 |[4.median-of-two-sorted-arrays](Problems/4.median-of-two-sorted-arrays/main.cpp)|Binary Search|
 |[11.container-with-most-water](Problems/11.container-with-most-water/main.cpp)||
 |[15.3-sum](Problems/15.3-sum/main.cpp)||
+|[19.remove-nth-node-from-end-of-list](Problems/19.remove-nth-node-from-end-of-list/main.cpp)||
 |[20.valid-parentheses](Problems/20.valid-parentheses/main.cpp)||
+|[21.merge-two-sorted-lists](Problems/21.merge-two-sorted-lists/main.cpp)||
 |[22.generate-parentheses](Problems/22.generate-parentheses/main.cpp)|backtracking|
 |[26.remove-duplicates-from-sorted-array](Problems/26.remove-duplicates-from-sorted-array/main.cpp)||
 |[27.remove-element](Problems/27.remove-element/main.cpp)||
@@ -34,6 +37,9 @@
 |[125.valid-palindrome](Problems/125.valid-palindrome/main.cpp)||
 |[128.longest-consecutive-sequence](Problems/128.longest-consecutive-sequence/main.cpp)||
 |[131.palindrome-partitioning](Problems/131.palindrome-partitioning/main.cpp)|backtracking|
+|[138.copy-list-with-random-pointer](Problems/138.copy-list-with-random-pointer/main.cpp)||
+|[141.linked-list-cycle](Problems/141.linked-list-cycle/main.cpp)|Tortoise and Hare Algorithm|
+|[143.reorder-list](Problems/143.reorder-list/main.cpp)||
 |[150.evaluate-reverse-polish-notation](Problems/150.evaluate-reverse-polish-notation/main.cpp)||
 |[153.find-minimum-in-rotated-sorted-array](Problems/153.find-minimum-in-rotated-sorted-array/main.cpp)||
 |[155.min-stack](Problems/155.min-stack/main.cpp)||
@@ -49,6 +55,7 @@
 |[239.sliding-window-maximum](Problems/239.sliding-window-maximum/main.cpp)|deque|
 |[242.valid-anagram](Problems/242.valid-anagram/main.cpp)||
 |[263.ugly-number](Problems/263.ugly-number/main.cpp)||
+|[287.find-the-duplicate-number](Problems/287.find-the-duplicate-number/main.cpp)|Tortoise and Hare Algorithm|
 |[330.patching-array](Problems/330.patching-array/main.cpp)||
 |[344.reverse-string](Problems/344.reverse-string/main.cpp)||
 |[347.top-k-frequent-elements](Problems/347.top-k-frequent-elements/main.cpp)||
