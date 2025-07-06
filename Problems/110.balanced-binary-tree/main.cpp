@@ -34,22 +34,26 @@ public:
 #endif
 
     bool isBalanced(TreeNode* root) {
-        if (root == nullptr) return true;
-        int left = getHeight(root->left);
-        int right = getHeight(root->right);
-        // 自己滿足且子代也滿足
-        return abs(left - right) <= 1 &&isBalanced(root->left) && isBalanced(root->right);
+        int ans = checkDepth(root);
+        return ans != -1;
     }
 
-    int getHeight(TreeNode* root) {
-        if (root == nullptr) return 0;
-        int left = getHeight(root->left);
-        int right = getHeight(root->right);
-        return 1 + max(left, right);
+    int checkDepth(TreeNode* node) {
+        if (!node)
+            return 0;
+
+        // 用-1來剪枝
+        int leftDepth = checkDepth(node->left);
+        if (leftDepth == -1) return -1;
+
+        int rightDepth = checkDepth(node->right);
+        if (rightDepth == -1) return -1;
+
+        if (abs(leftDepth - rightDepth) > 1)
+            return -1;
+        
+        return 1 + max(leftDepth, rightDepth);
     }
-
-
-    
 };
 
 #ifdef DEBUG
