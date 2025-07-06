@@ -13,6 +13,8 @@
 |[20.valid-parentheses](Problems/20.valid-parentheses/main.cpp)||
 |[21.merge-two-sorted-lists](Problems/21.merge-two-sorted-lists/main.cpp)||
 |[22.generate-parentheses](Problems/22.generate-parentheses/main.cpp)|backtracking|
+|[23.merge-k-sorted-lists](Problems/23.merge-k-sorted-lists/main.cpp)||
+|[25.reverse-nodes-in-k-group](Problems/25.reverse-nodes-in-k-group/main.cpp)||
 |[26.remove-duplicates-from-sorted-array](Problems/26.remove-duplicates-from-sorted-array/main.cpp)||
 |[27.remove-element](Problems/27.remove-element/main.cpp)||
 |[33.search-in-rotated-sorted-array](Problems/33.search-in-rotated-sorted-array/main.cpp)||
@@ -28,6 +30,8 @@
 |[80.remove-duplicates-from-sorted-array-ii](Problems/80.remove-duplicates-from-sorted-array-ii/main.cpp)||
 |[84.largest-rectangle-in-histogram](Problems/84.largest-rectangle-in-histogram/main.cpp)|Monotonic Stack|
 |[88.merge-sorted-array](Problems/88.merge-sorted-array/main.cpp)||
+|[100.same-tree](Problems/100.same-tree/main.cpp)||
+|[102.binary-tree-level-order-traversal](Problems/102.binary-tree-level-order-traversal/main.cpp)||
 |[104.maximum-depth-of-binary-tree](Problems/104.maximum-depth-of-binary-tree/main.cpp)||
 |[105.construct-binary-tree-from-preorder-and-inorder-traversal](Problems/105.construct-binary-tree-from-preorder-and-inorder-traversal/main.cpp)||
 |[106.construct-binary-tree-from-inorder-and-postorder-traversal](Problems/106.construct-binary-tree-from-inorder-and-postorder-traversal/main.cpp)||
@@ -40,6 +44,7 @@
 |[138.copy-list-with-random-pointer](Problems/138.copy-list-with-random-pointer/main.cpp)||
 |[141.linked-list-cycle](Problems/141.linked-list-cycle/main.cpp)|Tortoise and Hare Algorithm|
 |[143.reorder-list](Problems/143.reorder-list/main.cpp)||
+|[146.lru-cache](Problems/146.lru-cache/main.cpp)|list|
 |[150.evaluate-reverse-polish-notation](Problems/150.evaluate-reverse-polish-notation/main.cpp)||
 |[153.find-minimum-in-rotated-sorted-array](Problems/153.find-minimum-in-rotated-sorted-array/main.cpp)||
 |[155.min-stack](Problems/155.min-stack/main.cpp)||
@@ -50,6 +55,8 @@
 |[206.reverse-linked-list](Problems/206.reverse-linked-list/main.cpp)||
 |[207.course-schedule](Problems/207.course-schedule/main.cpp)||
 |[217.contains-duplicate](Problems/217.contains-duplicate/main.cpp)||
+|[226.invert-binary-tree](Problems/226.invert-binary-tree/main.cpp)||
+|[235.lowest-common-ancestor-of-a-binary-search-tree](Problems/235.lowest-common-ancestor-of-a-binary-search-tree/main.cpp)||
 |[237.delete-node-in-a-linked-list](Problems/237.delete-node-in-a-linked-list/main.cpp)||
 |[238.product-of-array-except-self](Problems/238.product-of-array-except-self/main.cpp)||
 |[239.sliding-window-maximum](Problems/239.sliding-window-maximum/main.cpp)|deque|
@@ -65,7 +72,9 @@
 |[502.ipo](Problems/502.ipo/main.cpp)|priority_queue(max heap)|
 |[506.relative-ranks](Problems/506.relative-ranks/main.cpp)||
 |[523.continuous-subarray-sum](Problems/523.continuous-subarray-sum/main.cpp)|prefix sum|
+|[543.diameter-of-binary-tree](Problems/543.diameter-of-binary-tree/main.cpp)||
 |[567.permutation-in-string](Problems/567.permutation-in-string/main.cpp)|Sliding Window|
+|[572.subtree-of-another-tree](Problems/572.subtree-of-another-tree/main.cpp)||
 |[633.sum-of-square-numbers](Problems/633.sum-of-square-numbers/main.cpp)||
 |[648.replace-words](Problems/648.replace-words/main.cpp)|trie tree(prefix tree)|
 |[704.binary-search](Problems/704.binary-search/main.cpp)||
