@@ -30,6 +30,7 @@
 |[80.remove-duplicates-from-sorted-array-ii](Problems/80.remove-duplicates-from-sorted-array-ii/main.cpp)||
 |[84.largest-rectangle-in-histogram](Problems/84.largest-rectangle-in-histogram/main.cpp)|Monotonic Stack|
 |[88.merge-sorted-array](Problems/88.merge-sorted-array/main.cpp)||
+|[98.validate-binary-search-tree](Problems/98.validate-binary-search-tree/main.cpp)||
 |[100.same-tree](Problems/100.same-tree/main.cpp)||
 |[102.binary-tree-level-order-traversal](Problems/102.binary-tree-level-order-traversal/main.cpp)||
 |[104.maximum-depth-of-binary-tree](Problems/104.maximum-depth-of-binary-tree/main.cpp)||
@@ -52,10 +53,12 @@
 |[167.two-sum-ii-input-array-is-sorted](Problems/167.two-sum-ii-input-array-is-sorted/main.cpp)||
 |[169.majority-element](Problems/169.majority-element/main.cpp)|Boyer–Moore majority vote algorithm|
 |[189.rotate-array](Problems/189.rotate-array/main.cpp)||
+|[199.binary-tree-right-side-view](Problems/199.binary-tree-right-side-view/main.cpp)||
 |[206.reverse-linked-list](Problems/206.reverse-linked-list/main.cpp)||
 |[207.course-schedule](Problems/207.course-schedule/main.cpp)||
 |[217.contains-duplicate](Problems/217.contains-duplicate/main.cpp)||
 |[226.invert-binary-tree](Problems/226.invert-binary-tree/main.cpp)||
+|[230.kth-smallest-element-in-a-bst](Problems/230.kth-smallest-element-in-a-bst/main.cpp)||
 |[235.lowest-common-ancestor-of-a-binary-search-tree](Problems/235.lowest-common-ancestor-of-a-binary-search-tree/main.cpp)||
 |[237.delete-node-in-a-linked-list](Problems/237.delete-node-in-a-linked-list/main.cpp)||
 |[238.product-of-array-except-self](Problems/238.product-of-array-except-self/main.cpp)||
@@ -94,6 +97,7 @@
 |[1051.height-checker](Problems/1051.height-checker/main.cpp)||
 |[1122.relative-sort-array](Problems/1122.relative-sort-array/main.cpp)||
 |[1325.delete-leaves-with-a-given-value](Problems/1325.delete-leaves-with-a-given-value/main.cpp)||
+|[1448.count-good-nodes-in-binary-tree](Problems/1448.count-good-nodes-in-binary-tree/main.cpp)||
 |[1482.minimum-number-of-days-to-make-m-bouquets](Problems/1482.minimum-number-of-days-to-make-m-bouquets/main.cpp)||
 |[1534.count-good-triplets](Problems/1534.count-good-triplets/main.cpp)||
 |[1550.three-consecutive-odds](Problems/1550.three-consecutive-odds/main.cpp)||
