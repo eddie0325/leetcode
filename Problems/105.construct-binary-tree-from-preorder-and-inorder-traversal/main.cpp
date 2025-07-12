@@ -33,30 +33,28 @@ public:
         TreeNode(int x, TreeNode *left, TreeNode *right) : val(x), left(left), right(right) {}
     };
 #endif
-    // preorder: 中左右 inorder: 左中右
+    unordered_map<int, int> inorderMap;
     TreeNode* buildTree(vector<int>& preorder, vector<int>& inorder) {
+        // preorder: 中左右
+        // inorder: 左中右
+
+        // 預處理，之後搜尋root時O(1)
+        for (int i = 0; i < inorder.size(); i++)
+            inorderMap[inorder[i]] = i;
+
         return buildSubTree(preorder, 0, preorder.size() - 1, inorder, 0, inorder.size() - 1);
     }
-    
+
     TreeNode* buildSubTree(vector<int>& preorder, int preorderStart, int preorderEnd, vector<int>& inorder, int inorderStart, int inorderEnd) {
-        if (preorderStart > preorderEnd || inorderStart > inorderEnd) {
-            return nullptr;
-        }
+        if (preorderEnd < preorderStart) return nullptr;
         
-        TreeNode* root = new TreeNode(preorder[preorderStart]);
-        for (int i = inorderStart; i <= inorderEnd; i++) {
-            if (inorder[i] == root->val) {
-                int leftNodeCout = i - inorderStart;
-                int rightNodeCout = inorderEnd - i;
-                if (leftNodeCout != 0) {
-                    root->left = buildSubTree(preorder, preorderStart + 1, preorderStart + leftNodeCout, inorder, inorderStart, inorderStart + leftNodeCout - 1);
-                }
-                if (rightNodeCout != 0) {
-                    root->right = buildSubTree(preorder, preorderStart + leftNodeCout + 1, preorderEnd, inorder, inorderStart + leftNodeCout + 1, inorderEnd);
-                }
-                break;
-            }
-        }
+        int rootValue = preorder[preorderStart];
+        TreeNode* root = new TreeNode(rootValue);
+        int rootIndex = inorderMap[rootValue];
+
+        int leftNodeCount = rootIndex - inorderStart;
+        root->left = buildSubTree(preorder, preorderStart + 1, preorderStart + leftNodeCount, inorder, inorderStart, rootIndex - 1);
+        root->right = buildSubTree(preorder, preorderStart + leftNodeCount + 1, preorderEnd, inorder, rootIndex + 1, inorderEnd);
         return root;
     }
 };
