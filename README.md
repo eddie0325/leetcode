@@ -19,7 +19,10 @@
 |[27.remove-element](Problems/27.remove-element/main.cpp)||
 |[33.search-in-rotated-sorted-array](Problems/33.search-in-rotated-sorted-array/main.cpp)||
 |[36.valid-sudoku](Problems/36.valid-sudoku/main.cpp)||
+|[39.combination-sum](Problems/39.combination-sum/main.cpp)||
+|[40.combination-sum-ii](Problems/40.combination-sum-ii/main.cpp)||
 |[42.trapping-rain-water](Problems/42.trapping-rain-water/main.cpp)||
+|[46.permutations](Problems/46.permutations/main.cpp)||
 |[49.group-anagrams](Problems/49.group-anagrams/main.cpp)||
 |[55.jump-game](Problems/55.jump-game/main.cpp)||
 |[66.plus-one](Problems/66.plus-one/main.cpp)||
@@ -27,9 +30,11 @@
 |[75.sort-colors](Problems/75.sort-colors/main.cpp)||
 |[76.minimum-window-substring](Problems/76.minimum-window-substring/main.cpp)|Sliding Window|
 |[78.subsets](Problems/78.subsets/main.cpp)||
+|[79.word-search](Problems/79.word-search/main.cpp)||
 |[80.remove-duplicates-from-sorted-array-ii](Problems/80.remove-duplicates-from-sorted-array-ii/main.cpp)||
 |[84.largest-rectangle-in-histogram](Problems/84.largest-rectangle-in-histogram/main.cpp)|Monotonic Stack|
 |[88.merge-sorted-array](Problems/88.merge-sorted-array/main.cpp)||
+|[90.subsets-ii](Problems/90.subsets-ii/main.cpp)||
 |[98.validate-binary-search-tree](Problems/98.validate-binary-search-tree/main.cpp)||
 |[100.same-tree](Problems/100.same-tree/main.cpp)||
 |[102.binary-tree-level-order-traversal](Problems/102.binary-tree-level-order-traversal/main.cpp)||
@@ -57,6 +62,7 @@
 |[199.binary-tree-right-side-view](Problems/199.binary-tree-right-side-view/main.cpp)||
 |[206.reverse-linked-list](Problems/206.reverse-linked-list/main.cpp)||
 |[207.course-schedule](Problems/207.course-schedule/main.cpp)||
+|[215.kth-largest-element-in-an-array](Problems/215.kth-largest-element-in-an-array/main.cpp)||
 |[217.contains-duplicate](Problems/217.contains-duplicate/main.cpp)||
 |[226.invert-binary-tree](Problems/226.invert-binary-tree/main.cpp)||
 |[230.kth-smallest-element-in-a-bst](Problems/230.kth-smallest-element-in-a-bst/main.cpp)||
@@ -67,10 +73,13 @@
 |[242.valid-anagram](Problems/242.valid-anagram/main.cpp)||
 |[263.ugly-number](Problems/263.ugly-number/main.cpp)||
 |[287.find-the-duplicate-number](Problems/287.find-the-duplicate-number/main.cpp)|Tortoise and Hare Algorithm|
+|[295.find-median-from-data-stream](Problems/295.find-median-from-data-stream/main.cpp)||
+|[297.serialize-and-deserialize-binary-tree](Problems/297.serialize-and-deserialize-binary-tree/main.cpp)||
 |[330.patching-array](Problems/330.patching-array/main.cpp)||
 |[344.reverse-string](Problems/344.reverse-string/main.cpp)||
 |[347.top-k-frequent-elements](Problems/347.top-k-frequent-elements/main.cpp)||
 |[350.intersection-of-two-arrays-ii](Problems/350.intersection-of-two-arrays-ii/main.cpp)||
+|[355.design-twitter](Problems/355.design-twitter/main.cpp)||
 |[409.longest-palindrome](Problems/409.longest-palindrome/main.cpp)||
 |[424.longest-repeating-character-replacement](Problems/424.longest-repeating-character-replacement/main.cpp)|Sliding Window|
 |[502.ipo](Problems/502.ipo/main.cpp)|priority_queue(max heap)|
@@ -79,8 +88,10 @@
 |[543.diameter-of-binary-tree](Problems/543.diameter-of-binary-tree/main.cpp)||
 |[567.permutation-in-string](Problems/567.permutation-in-string/main.cpp)|Sliding Window|
 |[572.subtree-of-another-tree](Problems/572.subtree-of-another-tree/main.cpp)||
+|[621.task-scheduler](Problems/621.task-scheduler/main.cpp)||
 |[633.sum-of-square-numbers](Problems/633.sum-of-square-numbers/main.cpp)||
 |[648.replace-words](Problems/648.replace-words/main.cpp)|trie tree(prefix tree)|
+|[703.kth-largest-element-in-a-stream](Problems/703.kth-largest-element-in-a-stream/main.cpp)||
 |[704.binary-search](Problems/704.binary-search/main.cpp)||
 |[739.daily-temperatures](Problems/739.daily-temperatures/main.cpp)|Monotonic Stack|
 |[786.k-th-smallest-prime-fraction](Problems/786.k-th-smallest-prime-fraction/main.cpp)||
@@ -91,10 +102,12 @@
 |[875.koko-eating-bananas](Problems/875.koko-eating-bananas/main.cpp)||
 |[881.boats-to-save-people](Problems/881.boats-to-save-people/main.cpp)||
 |[945.minimum-increment-to-make-array-unique](Problems/945.minimum-increment-to-make-array-unique/main.cpp)||
+|[973.k-closest-points-to-origin](Problems/973.k-closest-points-to-origin/main.cpp)||
 |[974.subarray-sums-divisible-by-k](Problems/974.subarray-sums-divisible-by-k/main.cpp)|prefix sum|
 |[979.distribute-coins-in-binary-tree](Problems/979.distribute-coins-in-binary-tree/main.cpp)|dfs|
 |[981.time-based-key-value-store](Problems/981.time-based-key-value-store/main.cpp)||
 |[1002.find-common-characters](Problems/1002.find-common-characters/main.cpp)||
+|[1046.last-stone-weight](Problems/1046.last-stone-weight/main.cpp)||
 |[1051.height-checker](Problems/1051.height-checker/main.cpp)||
 |[1122.relative-sort-array](Problems/1122.relative-sort-array/main.cpp)||
 |[1325.delete-leaves-with-a-given-value](Problems/1325.delete-leaves-with-a-given-value/main.cpp)||
