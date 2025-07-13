@@ -11,24 +11,24 @@ using namespace std;
 class Solution {
 public:
     vector<vector<int>> subsets(vector<int>& nums) {
-        // 1 OOOOXXXX
-        // 2 OOXXOOXX
-        // 3 OXOXOXOX
-        vector<vector<int>> result(pow(2, nums.size()), vector<int>());
-        int resultSize = result.size();
-        int pushCount = resultSize;
-        for (int i = 0; i < nums.size(); ++i) {
-            pushCount /= 2;
-            // 要填的起點位置
-            for (int j = 0; j < resultSize; j+=(pushCount * 2)) {
-                // 連續填pushCount個
-                for (int k = 0; k < pushCount; ++k) {
-                    result[j + k].push_back(nums[i]);
-                }
-            }
-            
+        vector<vector<int>> ans;
+        vector<int> current;
+        backtrack(nums, current, 0, ans);
+        return ans;
+    }
+
+    void backtrack(const vector<int> &nums, vector<int> &current, int index, vector<vector<int>> &ans) {
+        if (index == nums.size()) {
+            ans.push_back(current);
+            return;
         }
-        return result;
+        // 目前這個 index 不選
+        backtrack(nums, current, index + 1, ans);
+        // 目前這個 index 選
+        current.push_back(nums[index]);
+        backtrack(nums, current, index + 1, ans);
+        // 回朔狀態
+        current.pop_back();
     }
 };
 
