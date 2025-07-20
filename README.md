@@ -25,6 +25,7 @@
 |[42.trapping-rain-water](Problems/42.trapping-rain-water/main.cpp)||
 |[46.permutations](Problems/46.permutations/main.cpp)||
 |[49.group-anagrams](Problems/49.group-anagrams/main.cpp)||
+|[51.n-queens](Problems/51.n-queens/main.cpp)||
 |[55.jump-game](Problems/55.jump-game/main.cpp)||
 |[66.plus-one](Problems/66.plus-one/main.cpp)||
 |[74.search-a-2-d-matrix](Problems/74.search-a-2-d-matrix/main.cpp)||
@@ -49,6 +50,7 @@
 |[125.valid-palindrome](Problems/125.valid-palindrome/main.cpp)||
 |[128.longest-consecutive-sequence](Problems/128.longest-consecutive-sequence/main.cpp)||
 |[131.palindrome-partitioning](Problems/131.palindrome-partitioning/main.cpp)|backtracking|
+|[133.clone-graph](Problems/133.clone-graph/main.cpp)||
 |[138.copy-list-with-random-pointer](Problems/138.copy-list-with-random-pointer/main.cpp)||
 |[141.linked-list-cycle](Problems/141.linked-list-cycle/main.cpp)|Tortoise and Hare Algorithm|
 |[143.reorder-list](Problems/143.reorder-list/main.cpp)||
@@ -61,8 +63,12 @@
 |[169.majority-element](Problems/169.majority-element/main.cpp)|Boyer–Moore majority vote algorithm|
 |[189.rotate-array](Problems/189.rotate-array/main.cpp)||
 |[199.binary-tree-right-side-view](Problems/199.binary-tree-right-side-view/main.cpp)||
+|[200.number-of-islands](Problems/200.number-of-islands/main.cpp)||
 |[206.reverse-linked-list](Problems/206.reverse-linked-list/main.cpp)||
 |[207.course-schedule](Problems/207.course-schedule/main.cpp)||
+|[208.implement-trie-prefix-tree](Problems/208.implement-trie-prefix-tree/main.cpp)||
+|[211.design-add-and-search-words-data-structure](Problems/211.design-add-and-search-words-data-structure/main.cpp)||
+|[212.word-search-ii](Problems/212.word-search-ii/main.cpp)||
 |[215.kth-largest-element-in-an-array](Problems/215.kth-largest-element-in-an-array/main.cpp)||
 |[217.contains-duplicate](Problems/217.contains-duplicate/main.cpp)||
 |[226.invert-binary-tree](Problems/226.invert-binary-tree/main.cpp)||
@@ -92,6 +98,7 @@
 |[621.task-scheduler](Problems/621.task-scheduler/main.cpp)||
 |[633.sum-of-square-numbers](Problems/633.sum-of-square-numbers/main.cpp)||
 |[648.replace-words](Problems/648.replace-words/main.cpp)|trie tree(prefix tree)|
+|[695.max-area-of-island](Problems/695.max-area-of-island/main.cpp)||
 |[703.kth-largest-element-in-a-stream](Problems/703.kth-largest-element-in-a-stream/main.cpp)||
 |[704.binary-search](Problems/704.binary-search/main.cpp)||
 |[739.daily-temperatures](Problems/739.daily-temperatures/main.cpp)|Monotonic Stack|
