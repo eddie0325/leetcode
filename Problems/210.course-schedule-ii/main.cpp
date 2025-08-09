@@ -1,40 +1,45 @@
 /*
- * @lc app=leetcode id=207 lang=cpp
+ * @lc app=leetcode id=210 lang=cpp
  *
- * [207] Course Schedule
+ * [210] Course Schedule II
  */
 
 // @lc code=start
+// #KEYPOINT Topological Ordering
 class Solution {
 public:
-    bool canFinish(int numCourses, vector<vector<int>>& prerequisites) {
+    vector<int> findOrder(int numCourses, vector<vector<int>>& prerequisites) {
         vector<vector<int>> graph(numCourses);
         vector<int> indegree(numCourses, 0);
-        int count = 0;
         for (auto& prerequisite: prerequisites) {
             int from = prerequisite[1];
             int to = prerequisite[0];
-            graph[from].push_back(to);
             indegree[to]++;
+            graph[from].push_back(to);
         }
 
         queue<int> q;
+        vector<int> ans;
+
         for (int i = 0; i < numCourses; i++) {
             if (indegree[i] == 0) {
                 q.push(i);
             }
         }
+
         while(!q.empty()) {
             int pre = q.front();
             q.pop();
-            count++;
+            ans.push_back(pre);
+
             for (int next: graph[pre]) {
                 indegree[next]--;
-                if (indegree[next] == 0)
-                    q.push(next);
+                if (indegree[next] == 0) q.push(next);
             }
         }
-        return count == numCourses;
+        if (ans.size() != numCourses)
+            return {};
+        return ans;
     }
 };
 // @lc code=end
