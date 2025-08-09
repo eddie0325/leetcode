@@ -48,7 +48,9 @@
 |[122.best-time-to-buy-and-sell-stock-ii](Problems/122.best-time-to-buy-and-sell-stock-ii/main.cpp)||
 |[124.binary-tree-maximum-path-sum](Problems/124.binary-tree-maximum-path-sum/main.cpp)||
 |[125.valid-palindrome](Problems/125.valid-palindrome/main.cpp)||
+|[127.word-ladder](Problems/127.word-ladder/main.cpp)||
 |[128.longest-consecutive-sequence](Problems/128.longest-consecutive-sequence/main.cpp)||
+|[130.surrounded-regions](Problems/130.surrounded-regions/main.cpp)||
 |[131.palindrome-partitioning](Problems/131.palindrome-partitioning/main.cpp)|backtracking|
 |[133.clone-graph](Problems/133.clone-graph/main.cpp)||
 |[138.copy-list-with-random-pointer](Problems/138.copy-list-with-random-pointer/main.cpp)||
@@ -67,6 +69,7 @@
 |[206.reverse-linked-list](Problems/206.reverse-linked-list/main.cpp)||
 |[207.course-schedule](Problems/207.course-schedule/main.cpp)||
 |[208.implement-trie-prefix-tree](Problems/208.implement-trie-prefix-tree/main.cpp)||
+|[210.course-schedule-ii](Problems/210.course-schedule-ii/main.cpp)|Topological Ordering|
 |[211.design-add-and-search-words-data-structure](Problems/211.design-add-and-search-words-data-structure/main.cpp)||
 |[212.word-search-ii](Problems/212.word-search-ii/main.cpp)||
 |[215.kth-largest-element-in-an-array](Problems/215.kth-largest-element-in-an-array/main.cpp)||
@@ -78,16 +81,20 @@
 |[238.product-of-array-except-self](Problems/238.product-of-array-except-self/main.cpp)||
 |[239.sliding-window-maximum](Problems/239.sliding-window-maximum/main.cpp)|deque|
 |[242.valid-anagram](Problems/242.valid-anagram/main.cpp)||
+|[261.graph-valid-tree](Problems/261.graph-valid-tree/main.cpp)||
 |[263.ugly-number](Problems/263.ugly-number/main.cpp)||
+|[286.walls-and-gates](Problems/286.walls-and-gates/main.cpp)||
 |[287.find-the-duplicate-number](Problems/287.find-the-duplicate-number/main.cpp)|Tortoise and Hare Algorithm|
 |[295.find-median-from-data-stream](Problems/295.find-median-from-data-stream/main.cpp)||
 |[297.serialize-and-deserialize-binary-tree](Problems/297.serialize-and-deserialize-binary-tree/main.cpp)||
+|[323.number-of-connected-components-in-an-undirected-graph](Problems/323.number-of-connected-components-in-an-undirected-graph/main.cpp)||
 |[330.patching-array](Problems/330.patching-array/main.cpp)||
 |[344.reverse-string](Problems/344.reverse-string/main.cpp)||
 |[347.top-k-frequent-elements](Problems/347.top-k-frequent-elements/main.cpp)||
 |[350.intersection-of-two-arrays-ii](Problems/350.intersection-of-two-arrays-ii/main.cpp)||
 |[355.design-twitter](Problems/355.design-twitter/main.cpp)||
 |[409.longest-palindrome](Problems/409.longest-palindrome/main.cpp)||
+|[417.pacific-atlantic-water-flow](Problems/417.pacific-atlantic-water-flow/main.cpp)||
 |[424.longest-repeating-character-replacement](Problems/424.longest-repeating-character-replacement/main.cpp)|Sliding Window|
 |[502.ipo](Problems/502.ipo/main.cpp)|priority_queue(max heap)|
 |[506.relative-ranks](Problems/506.relative-ranks/main.cpp)||
@@ -98,10 +105,12 @@
 |[621.task-scheduler](Problems/621.task-scheduler/main.cpp)||
 |[633.sum-of-square-numbers](Problems/633.sum-of-square-numbers/main.cpp)||
 |[648.replace-words](Problems/648.replace-words/main.cpp)|trie tree(prefix tree)|
+|[684.redundant-connection](Problems/684.redundant-connection/main.cpp)|Disjoint set|
 |[695.max-area-of-island](Problems/695.max-area-of-island/main.cpp)||
 |[703.kth-largest-element-in-a-stream](Problems/703.kth-largest-element-in-a-stream/main.cpp)||
 |[704.binary-search](Problems/704.binary-search/main.cpp)||
 |[739.daily-temperatures](Problems/739.daily-temperatures/main.cpp)|Monotonic Stack|
+|[743.network-delay-time](Problems/743.network-delay-time/main.cpp)|Dijkstra|
 |[786.k-th-smallest-prime-fraction](Problems/786.k-th-smallest-prime-fraction/main.cpp)||
 |[826.most-profit-assigning-work](Problems/826.most-profit-assigning-work/main.cpp)||
 |[846.hand-of-straights](Problems/846.hand-of-straights/main.cpp)||
@@ -114,6 +123,7 @@
 |[974.subarray-sums-divisible-by-k](Problems/974.subarray-sums-divisible-by-k/main.cpp)|prefix sum|
 |[979.distribute-coins-in-binary-tree](Problems/979.distribute-coins-in-binary-tree/main.cpp)|dfs|
 |[981.time-based-key-value-store](Problems/981.time-based-key-value-store/main.cpp)||
+|[994.rotting-oranges](Problems/994.rotting-oranges/main.cpp)||
 |[1002.find-common-characters](Problems/1002.find-common-characters/main.cpp)||
 |[1046.last-stone-weight](Problems/1046.last-stone-weight/main.cpp)||
 |[1051.height-checker](Problems/1051.height-checker/main.cpp)||
