@@ -83,12 +83,14 @@
 |[242.valid-anagram](Problems/242.valid-anagram/main.cpp)||
 |[261.graph-valid-tree](Problems/261.graph-valid-tree/main.cpp)||
 |[263.ugly-number](Problems/263.ugly-number/main.cpp)||
+|[269.alien-dictionary](Problems/269.alien-dictionary/main.cpp)||
 |[286.walls-and-gates](Problems/286.walls-and-gates/main.cpp)||
 |[287.find-the-duplicate-number](Problems/287.find-the-duplicate-number/main.cpp)|Tortoise and Hare Algorithm|
 |[295.find-median-from-data-stream](Problems/295.find-median-from-data-stream/main.cpp)||
 |[297.serialize-and-deserialize-binary-tree](Problems/297.serialize-and-deserialize-binary-tree/main.cpp)||
 |[323.number-of-connected-components-in-an-undirected-graph](Problems/323.number-of-connected-components-in-an-undirected-graph/main.cpp)||
 |[330.patching-array](Problems/330.patching-array/main.cpp)||
+|[332.reconstruct-itinerary](Problems/332.reconstruct-itinerary/main.cpp)|Hierholzer’s Algorithm|
 |[344.reverse-string](Problems/344.reverse-string/main.cpp)||
 |[347.top-k-frequent-elements](Problems/347.top-k-frequent-elements/main.cpp)||
 |[350.intersection-of-two-arrays-ii](Problems/350.intersection-of-two-arrays-ii/main.cpp)||
@@ -111,7 +113,9 @@
 |[704.binary-search](Problems/704.binary-search/main.cpp)||
 |[739.daily-temperatures](Problems/739.daily-temperatures/main.cpp)|Monotonic Stack|
 |[743.network-delay-time](Problems/743.network-delay-time/main.cpp)|Dijkstra|
+|[778.swim-in-rising-water](Problems/778.swim-in-rising-water/main.cpp)||
 |[786.k-th-smallest-prime-fraction](Problems/786.k-th-smallest-prime-fraction/main.cpp)||
+|[787.cheapest-flights-within-k-stops](Problems/787.cheapest-flights-within-k-stops/main.cpp)||
 |[826.most-profit-assigning-work](Problems/826.most-profit-assigning-work/main.cpp)||
 |[846.hand-of-straights](Problems/846.hand-of-straights/main.cpp)||
 |[853.car-fleet](Problems/853.car-fleet/main.cpp)||
@@ -133,6 +137,7 @@
 |[1482.minimum-number-of-days-to-make-m-bouquets](Problems/1482.minimum-number-of-days-to-make-m-bouquets/main.cpp)||
 |[1534.count-good-triplets](Problems/1534.count-good-triplets/main.cpp)||
 |[1550.three-consecutive-odds](Problems/1550.three-consecutive-odds/main.cpp)||
+|[1584.min-cost-to-connect-all-points](Problems/1584.min-cost-to-connect-all-points/main.cpp)||
 |[1608.special-array-with-x-elements-greater-than-or-equal-x](Problems/1608.special-array-with-x-elements-greater-than-or-equal-x/main.cpp)||
 |[1863.sum-of-all-subset-xor-totals](Problems/1863.sum-of-all-subset-xor-totals/main.cpp)||
 |[2037.minimum-number-of-moves-to-seat-everyone](Problems/2037.minimum-number-of-moves-to-seat-everyone/main.cpp)||
