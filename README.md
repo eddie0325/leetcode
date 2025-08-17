@@ -7,6 +7,7 @@
 |[2.add-two-numbers](Problems/2.add-two-numbers/main.cpp)||
 |[3.longest-substring-without-repeating-characters](Problems/3.longest-substring-without-repeating-characters/main.cpp)||
 |[4.median-of-two-sorted-arrays](Problems/4.median-of-two-sorted-arrays/main.cpp)|Binary Search|
+|[5.longest-palindromic-substring](Problems/5.longest-palindromic-substring/main.cpp)||
 |[11.container-with-most-water](Problems/11.container-with-most-water/main.cpp)||
 |[15.3-sum](Problems/15.3-sum/main.cpp)||
 |[17.letter-combinations-of-a-phone-number](Problems/17.letter-combinations-of-a-phone-number/main.cpp)||
@@ -28,6 +29,7 @@
 |[51.n-queens](Problems/51.n-queens/main.cpp)||
 |[55.jump-game](Problems/55.jump-game/main.cpp)||
 |[66.plus-one](Problems/66.plus-one/main.cpp)||
+|[70.climbing-stairs](Problems/70.climbing-stairs/main.cpp)||
 |[74.search-a-2-d-matrix](Problems/74.search-a-2-d-matrix/main.cpp)||
 |[75.sort-colors](Problems/75.sort-colors/main.cpp)||
 |[76.minimum-window-substring](Problems/76.minimum-window-substring/main.cpp)|Sliding Window|
@@ -37,6 +39,7 @@
 |[84.largest-rectangle-in-histogram](Problems/84.largest-rectangle-in-histogram/main.cpp)|Monotonic Stack|
 |[88.merge-sorted-array](Problems/88.merge-sorted-array/main.cpp)||
 |[90.subsets-ii](Problems/90.subsets-ii/main.cpp)||
+|[91.decode-ways](Problems/91.decode-ways/main.cpp)||
 |[98.validate-binary-search-tree](Problems/98.validate-binary-search-tree/main.cpp)||
 |[100.same-tree](Problems/100.same-tree/main.cpp)||
 |[102.binary-tree-level-order-traversal](Problems/102.binary-tree-level-order-traversal/main.cpp)||
@@ -54,16 +57,19 @@
 |[131.palindrome-partitioning](Problems/131.palindrome-partitioning/main.cpp)|backtracking|
 |[133.clone-graph](Problems/133.clone-graph/main.cpp)||
 |[138.copy-list-with-random-pointer](Problems/138.copy-list-with-random-pointer/main.cpp)||
+|[139.word-break](Problems/139.word-break/main.cpp)||
 |[141.linked-list-cycle](Problems/141.linked-list-cycle/main.cpp)|Tortoise and Hare Algorithm|
 |[143.reorder-list](Problems/143.reorder-list/main.cpp)||
 |[146.lru-cache](Problems/146.lru-cache/main.cpp)|list|
 |[150.evaluate-reverse-polish-notation](Problems/150.evaluate-reverse-polish-notation/main.cpp)||
+|[152.maximum-product-subarray](Problems/152.maximum-product-subarray/main.cpp)||
 |[153.find-minimum-in-rotated-sorted-array](Problems/153.find-minimum-in-rotated-sorted-array/main.cpp)||
 |[155.min-stack](Problems/155.min-stack/main.cpp)||
 |[165.compare-version-numbers](Problems/165.compare-version-numbers/main.cpp)||
 |[167.two-sum-ii-input-array-is-sorted](Problems/167.two-sum-ii-input-array-is-sorted/main.cpp)||
 |[169.majority-element](Problems/169.majority-element/main.cpp)|Boyer–Moore majority vote algorithm|
 |[189.rotate-array](Problems/189.rotate-array/main.cpp)||
+|[198.house-robber](Problems/198.house-robber/main.cpp)||
 |[199.binary-tree-right-side-view](Problems/199.binary-tree-right-side-view/main.cpp)||
 |[200.number-of-islands](Problems/200.number-of-islands/main.cpp)||
 |[206.reverse-linked-list](Problems/206.reverse-linked-list/main.cpp)||
@@ -72,6 +78,7 @@
 |[210.course-schedule-ii](Problems/210.course-schedule-ii/main.cpp)|Topological Ordering|
 |[211.design-add-and-search-words-data-structure](Problems/211.design-add-and-search-words-data-structure/main.cpp)||
 |[212.word-search-ii](Problems/212.word-search-ii/main.cpp)||
+|[213.house-robber-ii](Problems/213.house-robber-ii/main.cpp)||
 |[215.kth-largest-element-in-an-array](Problems/215.kth-largest-element-in-an-array/main.cpp)||
 |[217.contains-duplicate](Problems/217.contains-duplicate/main.cpp)||
 |[226.invert-binary-tree](Problems/226.invert-binary-tree/main.cpp)||
@@ -88,6 +95,8 @@
 |[287.find-the-duplicate-number](Problems/287.find-the-duplicate-number/main.cpp)|Tortoise and Hare Algorithm|
 |[295.find-median-from-data-stream](Problems/295.find-median-from-data-stream/main.cpp)||
 |[297.serialize-and-deserialize-binary-tree](Problems/297.serialize-and-deserialize-binary-tree/main.cpp)||
+|[300.longest-increasing-subsequence](Problems/300.longest-increasing-subsequence/main.cpp)||
+|[322.coin-change](Problems/322.coin-change/main.cpp)||
 |[323.number-of-connected-components-in-an-undirected-graph](Problems/323.number-of-connected-components-in-an-undirected-graph/main.cpp)||
 |[330.patching-array](Problems/330.patching-array/main.cpp)||
 |[332.reconstruct-itinerary](Problems/332.reconstruct-itinerary/main.cpp)|Hierholzer’s Algorithm|
@@ -96,6 +105,7 @@
 |[350.intersection-of-two-arrays-ii](Problems/350.intersection-of-two-arrays-ii/main.cpp)||
 |[355.design-twitter](Problems/355.design-twitter/main.cpp)||
 |[409.longest-palindrome](Problems/409.longest-palindrome/main.cpp)||
+|[416.partition-equal-subset-sum](Problems/416.partition-equal-subset-sum/main.cpp)|0-1 Knapsack|
 |[417.pacific-atlantic-water-flow](Problems/417.pacific-atlantic-water-flow/main.cpp)||
 |[424.longest-repeating-character-replacement](Problems/424.longest-repeating-character-replacement/main.cpp)|Sliding Window|
 |[502.ipo](Problems/502.ipo/main.cpp)|priority_queue(max heap)|
@@ -106,6 +116,7 @@
 |[572.subtree-of-another-tree](Problems/572.subtree-of-another-tree/main.cpp)||
 |[621.task-scheduler](Problems/621.task-scheduler/main.cpp)||
 |[633.sum-of-square-numbers](Problems/633.sum-of-square-numbers/main.cpp)||
+|[647.palindromic-substrings](Problems/647.palindromic-substrings/main.cpp)||
 |[648.replace-words](Problems/648.replace-words/main.cpp)|trie tree(prefix tree)|
 |[684.redundant-connection](Problems/684.redundant-connection/main.cpp)|Disjoint set|
 |[695.max-area-of-island](Problems/695.max-area-of-island/main.cpp)||
@@ -113,9 +124,10 @@
 |[704.binary-search](Problems/704.binary-search/main.cpp)||
 |[739.daily-temperatures](Problems/739.daily-temperatures/main.cpp)|Monotonic Stack|
 |[743.network-delay-time](Problems/743.network-delay-time/main.cpp)|Dijkstra|
+|[746.min-cost-climbing-stairs](Problems/746.min-cost-climbing-stairs/main.cpp)||
 |[778.swim-in-rising-water](Problems/778.swim-in-rising-water/main.cpp)||
 |[786.k-th-smallest-prime-fraction](Problems/786.k-th-smallest-prime-fraction/main.cpp)||
-|[787.cheapest-flights-within-k-stops](Problems/787.cheapest-flights-within-k-stops/main.cpp)||
+|[787.cheapest-flights-within-k-stops](Problems/787.cheapest-flights-within-k-stops/main.cpp)|Bellman-Ford|
 |[826.most-profit-assigning-work](Problems/826.most-profit-assigning-work/main.cpp)||
 |[846.hand-of-straights](Problems/846.hand-of-straights/main.cpp)||
 |[853.car-fleet](Problems/853.car-fleet/main.cpp)||
