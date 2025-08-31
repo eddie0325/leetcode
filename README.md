@@ -28,6 +28,7 @@
 |[49.group-anagrams](Problems/49.group-anagrams/main.cpp)||
 |[51.n-queens](Problems/51.n-queens/main.cpp)||
 |[55.jump-game](Problems/55.jump-game/main.cpp)||
+|[62.unique-paths](Problems/62.unique-paths/main.cpp)||
 |[66.plus-one](Problems/66.plus-one/main.cpp)||
 |[70.climbing-stairs](Problems/70.climbing-stairs/main.cpp)||
 |[74.search-a-2-d-matrix](Problems/74.search-a-2-d-matrix/main.cpp)||
@@ -96,6 +97,7 @@
 |[295.find-median-from-data-stream](Problems/295.find-median-from-data-stream/main.cpp)||
 |[297.serialize-and-deserialize-binary-tree](Problems/297.serialize-and-deserialize-binary-tree/main.cpp)||
 |[300.longest-increasing-subsequence](Problems/300.longest-increasing-subsequence/main.cpp)||
+|[309.best-time-to-buy-and-sell-stock-with-cooldown](Problems/309.best-time-to-buy-and-sell-stock-with-cooldown/main.cpp)||
 |[322.coin-change](Problems/322.coin-change/main.cpp)||
 |[323.number-of-connected-components-in-an-undirected-graph](Problems/323.number-of-connected-components-in-an-undirected-graph/main.cpp)||
 |[330.patching-array](Problems/330.patching-array/main.cpp)||
@@ -110,6 +112,7 @@
 |[424.longest-repeating-character-replacement](Problems/424.longest-repeating-character-replacement/main.cpp)|Sliding Window|
 |[502.ipo](Problems/502.ipo/main.cpp)|priority_queue(max heap)|
 |[506.relative-ranks](Problems/506.relative-ranks/main.cpp)||
+|[518.coin-change-ii](Problems/518.coin-change-ii/main.cpp)||
 |[523.continuous-subarray-sum](Problems/523.continuous-subarray-sum/main.cpp)|prefix sum|
 |[543.diameter-of-binary-tree](Problems/543.diameter-of-binary-tree/main.cpp)||
 |[567.permutation-in-string](Problems/567.permutation-in-string/main.cpp)|Sliding Window|
@@ -144,6 +147,7 @@
 |[1046.last-stone-weight](Problems/1046.last-stone-weight/main.cpp)||
 |[1051.height-checker](Problems/1051.height-checker/main.cpp)||
 |[1122.relative-sort-array](Problems/1122.relative-sort-array/main.cpp)||
+|[1143.longest-common-subsequence](Problems/1143.longest-common-subsequence/main.cpp)||
 |[1325.delete-leaves-with-a-given-value](Problems/1325.delete-leaves-with-a-given-value/main.cpp)||
 |[1448.count-good-nodes-in-binary-tree](Problems/1448.count-good-nodes-in-binary-tree/main.cpp)||
 |[1482.minimum-number-of-days-to-make-m-bouquets](Problems/1482.minimum-number-of-days-to-make-m-bouquets/main.cpp)||
