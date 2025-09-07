@@ -41,6 +41,7 @@
 |[88.merge-sorted-array](Problems/88.merge-sorted-array/main.cpp)||
 |[90.subsets-ii](Problems/90.subsets-ii/main.cpp)||
 |[91.decode-ways](Problems/91.decode-ways/main.cpp)||
+|[97.interleaving-string](Problems/97.interleaving-string/main.cpp)||
 |[98.validate-binary-search-tree](Problems/98.validate-binary-search-tree/main.cpp)||
 |[100.same-tree](Problems/100.same-tree/main.cpp)||
 |[102.binary-tree-level-order-traversal](Problems/102.binary-tree-level-order-traversal/main.cpp)||
@@ -110,6 +111,7 @@
 |[416.partition-equal-subset-sum](Problems/416.partition-equal-subset-sum/main.cpp)|0-1 Knapsack|
 |[417.pacific-atlantic-water-flow](Problems/417.pacific-atlantic-water-flow/main.cpp)||
 |[424.longest-repeating-character-replacement](Problems/424.longest-repeating-character-replacement/main.cpp)|Sliding Window|
+|[494.target-sum](Problems/494.target-sum/main.cpp)||
 |[502.ipo](Problems/502.ipo/main.cpp)|priority_queue(max heap)|
 |[506.relative-ranks](Problems/506.relative-ranks/main.cpp)||
 |[518.coin-change-ii](Problems/518.coin-change-ii/main.cpp)||
